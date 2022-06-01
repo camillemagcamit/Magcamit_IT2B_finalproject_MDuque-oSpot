@@ -1,4 +1,29 @@
+<?php
+//start the session
+SESSION_START();
 
+
+if (isset($_REQUEST['Homepage']) ===true){
+    session_destroy();
+    header("Location: index.php?Homepage");
+    }
+elseif (isset($_REQUEST['About']) ===true){
+    session_destroy();
+    header("Location: about us.php?About");
+}
+elseif (isset($_REQUEST['Start']) ===true){
+    session_destroy();
+    header("Location: start here.php?Start");
+}elseif (isset($_REQUEST['Spots']) ===true){
+    session_destroy();
+    header("Location: spots.php?Spots");
+}
+// if the button is clicked
+if(isset($_REQUEST['submit_button']) === true){
+    session_destroy();
+    header("Location: index.php?Homepage");
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">

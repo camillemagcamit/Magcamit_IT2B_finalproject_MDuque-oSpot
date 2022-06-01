@@ -1,4 +1,54 @@
+<?php
+//start the session
+SESSION_START();
 
+
+if (isset($_REQUEST['About']) ===true){
+    session_destroy();
+    header("Location: about us.php?About");
+    }
+elseif (isset($_REQUEST['Contact']) ===true){
+    session_destroy();
+    header("Location: contact us.php?Contact");
+}
+elseif (isset($_REQUEST['Homepage']) ===true){
+    session_destroy();
+    header("Location: index.php?Homepage");
+}elseif (isset($_REQUEST['Start']) ===true){
+    session_destroy();
+    header("Location: start here.php?Start");
+}elseif (isset($_REQUEST['Maniwaya Island']) ===true){
+    session_destroy();
+    header("Location: spot1.php?Maniwaya Island");
+}elseif (isset($_REQUEST['Poctoy White Beach']) ===true){
+    session_destroy();
+    header("Location: spot2.php?Poctoy White Beach");
+}elseif (isset($_REQUEST['Tres Reyes Islands']) ===true){
+    session_destroy();
+    header("Location: spot3.php?Tres Reyes Islands");
+}elseif (isset($_REQUEST['Bagumbungan Cave']) ===true){
+    session_destroy();
+    header("Location: spot4.php?Bagumbungan Cave");
+}elseif (isset($_REQUEST['Mongpong Island']) ===true){
+    session_destroy();
+    header("Location: spot5.php?Mongpong Island");
+}elseif (isset($_REQUEST['Mount Malindig']) ===true){
+    session_destroy();
+    header("Location: spot6.php?Mount Malindig");
+}elseif (isset($_REQUEST['Paadjao Falls']) ===true){
+    session_destroy();
+    header("Location: spot7.php?Paadjao Falls");
+}elseif (isset($_REQUEST['Bathala Cave']) ===true){
+    session_destroy();
+    header("Location: spot8.php?Bathala Cave");
+}elseif (isset($_REQUEST['Beach Club Cagpo Resort']) ===true){
+    session_destroy();
+    header("Location: spot9.php?Beach Club Cagpo Resort");
+}elseif (isset($_REQUEST['Molbog Sulfur Spring']) ===true){
+    session_destroy();
+    header("Location: spot10.php?Molbog Sulfur Spring");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

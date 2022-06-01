@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE MDuqueñoSpot [
+	<!ELEMENT MDuqueñoSpot (pages)>
+	<!ELEMENT pages (home, spots, start-here, about-us, contact-us)>
+	<!ELEMENT home (intro)>
+	<!ELEMENT intro (#PCDATA)>
+	<!ELEMENT spots (title, description)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT start-here (get-started, spots-intro)>
+	<!ELEMENT get-started (#PCDATA)>
+	<!ELEMENT spots-intro (#PCDATA)>
+	<!ELEMENT about-us (#PCDATA)>
+	<!ELEMENT contact-us (data)>
+	<!ELEMENT data (#PCDATA)>
+
+	<!ATTLIST spots code CDATA #REQUIRED>
+]>
+
+
+<MDuqueñoSpot>
+
+	<pages>
+	<home code ="123456">
+		<intro> Marinduque is an island province in the Mimaropa region that sits between Tayabas Bay and the Sibuyan Sea. It is located in the heart of the Philippines and is considered the geographic center of the archipelago. During the Lenten season, the island becomes quite crowded for the annual Moriones Festival, one of the Philippines' oldest religious festivals.&#13; Marinduque, with its idyllic beaches and caves, has several must-see attractions that draw tourists during the Lenten season and the summer months. For those planning a trip to this beautiful island paradise, I've compiled a list of the top Marinduque tourist attractions that you should see when booking Marinduque tour packages. </intro>
+	</home>
+
+	<spots code ="746592">
+		<title> MANIWAYA ISLAND </title>
+		<description> Maniwaya Island is one of several islands in Marinduque that dot Santa Cruz town and can compete with famous white-sand beaches in the Philippines. Along the beach, you can find low-cost resorts and glamping cottages similar to those found in Bali, Indonesia.&#13; Palad Sandbar, located off the island's northern coast, is a patch of white sand that unravels and appears to invite you to dip into the surrounding crystal blue waters. The sandbar is best visited in the morning, when the entire strip of white sand appears during low tide.&#13; The picturesque backdrop of palm-fringed shores and turquoise-colored waters is ideal for Instagrammable selfies and group photos. To round out your trip, don't pass up the opportunity to see the best sunset on Maniwaya Island. </description>
+	</spots>
+
+	<spots code ="852461">
+		<title> POCTOY WHITE BEACH </title>
+		<description> The Poctoy White Beach, a long stretch of fine white sand lined with palm trees in the coastal municipality of Torrijos, is one of Marinduque's most well-known attractions. The powdery beach is surrounded by crystal clear waters that are ideal for swimming and kayaking. Beachfront huts and cottages with chairs and tables are ideal for relaxing afternoons on the beach.&#13; Scuba divers will marvel at the sight beneath the crystalline waters. The Poctoy Underwater Museum displays massive Moryon monuments, which represent Marinduque's iconic Moriones festival, which takes place every Holy Week.&#13; Aside from being one of the most beautiful beaches in Marinduque, Poctoy White Beach is one of the newest Torrijos Marinduque tourist destinations. Because of its pristine shores and panoramic sunset views glowing over the horizon, it attracts a large number of local and international visitors each year. </description>
+	</spots>
+
+	<spots code ="085645">
+		<title> TRES REYES ISLANDS </title>
+		<description> The Treys Reyes Islands, located off the coast of Gasan municipality, are another postcard-worthy spot in Marinduque. The starting point is Gasan port, where tour boats await passengers before departing for the nearby Three Kings islets of Melchor, Gaspar, and Baltazar.&#13; Gaspar Island is the largest of the three, a tranquil paradise with crystal clear waters and fine white sand. Melchor Island follows, with its lush vegetation covering rock formations. Finally, Baltazar Island is a lovely haven for those looking for a secluded spot to lounge on the sand and in beach cabanas.&#13; A hilltop lighthouse built during the American colonial period in 1910 is one of the must-see attractions on Baltazar Island. Don't forget to see the unique rock formations at Kulapnit Cave before concluding your island adventure. Then, pay a visit to Kay Bungo Cave, a historical site where elongated skulls were discovered. </description>
+	</spots>
+
+	<spots code ="879567">
+		<title> BAGUMBUNGAN CAVE </title>
+		<description> Those interested in spelunking in the Philippines can visit the Bagumbungan Cave, one of Marinduque's subterranean wonders. It is frequently compared to Sumaguing Cave in Sagada due to its impressive stalactites and stalagmites. Bagumbungan Cave is an excellent spelunking location with spectacular rock formations.&#13; The starting point is in Santa Cruz, where the cave is located. A pathway leads down the waist-deep underground river basin from the cave's entrance. To get there, you must navigate slippery surfaces and narrow passageways. The path becomes more difficult as you slide down muddy paths and squeeze between huge rocks.&#13; Bagumbungan Cave is 1.9 kilometers long and has a beginner-friendly trail, making it ideal for those new to spelunking. Some areas of the cave are off-limits to visitors. It is largely unexplored, making it a haven for adventurers everywhere. </description>
+	</spots>
+
+	<spots code ="264735">
+		<title> MONGPONG ISLAND </title>
+		<description> Mongpong Island, located off the northeastern coast of Marinduque, is a charming islet with striking rock formations and a pristine white-sand beach. It has clear blue waters with colorful reef fishes underwater.&#13; The first thing you'll notice when you arrive on the island is the Ungab Rock Formation. The massive colossal rock rests on the turquoise waters and white sand of the island. A triangular hole carved out of the base rock forms a land bridge connecting you to the other side of the beach.&#13; The massive boulder is a sight to behold and makes an excellent backdrop for selfies and group photos. Furthermore, the water beneath the rock arch is shallow, making it a safe swimming area for children. The white sand is made up of smooth pebbles and coral fragments. </description>
+	</spots>
+
+	<spots code ="154634">
+		<title> MOUNT MALINDIG </title>
+		<description> Mount Malindig, which stands majestically at an elevation of 1,157 meters above sea level, is a must-see tourist attraction in Buenavista Marinduque and is considered the province's highest peak. It is a stratovolcano on Luzon Island, located at the island's southern tip and on the west side of the Bondoc Peninsula.&#13; Mount Malindig is comparable to Mt. Banahaw and Mt. Makiling in Southern Luzon's Quezon and Laguna provinces due to its vast landscape and thriving ecosystem. The Malbog Sulfur Spring, located at the base of Mount Malindig, is a therapeutic sulfuric spring. Many locals and tourists come here to experience the spring's healing powers.&#13; Mountaineers will enjoy the hike to Mount Malindig. It has a difficulty level of 4 according to the Pinoy Mountaineer rating system, requiring a minor climb. Mount Malinig has a well-established trail with somewhat rugged and steep paths with trail classification levels 1 and 2. </description>
+	</spots>
+
+	<spots code ="674535">
+		<title> PAADJAO FALLS </title>
+		<description> While Marinduque is well-known for its beautiful beaches, one enchanting waterfall stands out from the rest of the Mogpog Marinduque tourist attractions: the Paadjao Falls. The Paadjao Falls are located in Mogpog municipality and are only a 10-minute walk from the highway, which is only 5.5 kilometers away.&#13; The hidden cascade flows gently from a 15-foot-tall rocky cliff down to a 6-foot-deep basin filled with cold, jade-green water. It gracefully nestles beneath the cool shade of verdant greenery and tall trees, bringing you closer to nature. Huge and edgy rocks surround the falls, so be extra cautious when crossing the river and falls.&#13; Paadjao Falls flows into the Mogpog River downstream. It is also an excellent picnic location where guests can pitch tents for camping. Apart from Paadjao Falls, other lesser-known waterfalls in Marinduque include Norada Falls, Kawa Kawa Falls, and Bulusukan Falls. </description>
+	</spots>
+
+	<spots code ="473563">
+		<title> BATHALA CAVE </title>
+		<description> Bathala Cave is a cave system on the jungle-clad mountain side of Marinduque that consists of seven caves, four of which are open to the public: Church, Secret, Python, and Cemetery Caves. Church Cave is the largest cave, with stalactites and stalagmites that resemble the interior of a church.&#13; Python Cave is famous for the pythons that rest on the walls and the hundreds of large bats that live in the ceilings. Human bones discovered in Cemetery Cave are thought to be the remains of war soldiers. While Secret Cave has a lot of rock formations and a small exit hole, hence the name. Bathala Cave is located  in Santa Cruz, Marinduque. </description>
+	</spots>
+
+	<spots code ="352487">
+		<title> BEACH CLUB CAGPO RESORT </title>
+		<description> Beach Club Cagpo Resort is the best Marinduque destination for travelers or couples looking for peace and quiet in a relaxing tropical island setting. The boutique resort and restaurant, perched on the southeastern edge of the mainland, has a 200-meter private white sand beach teeming with marine life, ideal for swimming, snorkeling, or simply relaxing under the shaded beach beds.&#13; It is lined with palm trees and offers a stunning view of Mount Malindig. Their on-site restaurant serves both international and Filipino fare. The prices for spacious and clean rooms are reasonable. The resort is in a fantastic location that couples would enjoy, and the staff and owner are to be commended for being extremely friendly and accommodating. Beach Club Cagpo is located in Torrijos, Marinduque, in Barangay Cagpo. </description>
+	</spots>
+
+	<spots code ="265498">
+		<title> MOLBOG SULFUR SPRING </title>
+		<description> Malbog Sulfur Spring is a natural hot spring located at the base of Mount Malindig. It is a stratovolcano in the town of Buenavista, rising 1,157 meters above sea level.&#13; Malbog Sulfur Spring is nestled among lush greenery and verdant flora and fauna. Its warm, bluish-white sulfuric water is thought to have therapeutic and healing properties. The spring has two swimming pools, both of which have medicinal properties that can be used to treat skin diseases.&#13; The stream flows directly from the mountain and flows into a spring pool where tourists can cool off. Its water is safe to drink and is thought to cure both acute and chronic skin ailments. Some visitors even bring bottles of sulfuric water with them on their way home. </description>
+	</spots>
+
+
+	<start-here code ="174936"> 
+		<get-started> Hey there mate, it's me Camille Magcamit, your virtual tour guide to Marinduque's famous spots where you can enjoy your stay.&#13; Are you stressed or bored? Are you tired of just laying around during summer? Well you come to the right site. This website has Marinduque's famous spots where you can look through and suit your liking.&#13; Feel free to look through this website and I'm telling you that you'll never regret it. </get-started>
+		<spots-intro> This website is all about sharing my adventure and places that I went to in Marinduque. I want to share this so that you'll also be able to see the beauty of Marinduque. I assure you that you'll enjoy visiting these places.&#13; My adventure here in Marinduque helped me to relaxed, cleared my mind and just appreciated the beauty of these places. I never felt alone in my adventure here in Marinduque and here, I felt free and just thought of positive things.&#13; Being born in this province is a blessing and so lucky because of the beautiful places. Sharing famous spots here in Marinduque is the main purpose of this website because you know what they say 'share your blessings'. There are top 10 famous  spots that for me are the best and I'm sure you'll have the best time of your life visiting these places. </spots-intro>
+	</start-here>
+
+	<about-us code ="486739">
+		<description> My name is Warren Malangis. I live in Cawit, Boac, Marinduque. I created EMD Cook'n (Marinduque Cooking Recipe), to share the best Marinduqueños recipes to everyone.&#13; I love adventure and exploring places, and I want to share to you guys the beauty of it all. Not just the beauty of it, but also the feeling and experience you'll get when you're at those places.&#13; So this website is specially made just for you all (the readers). I want to make things easier for you guys so I compiled famous spots here in Marinduque. Let's introduce Marinduque to the world. </description>
+	</about-us>
+
+	<contact-us code ="583409">
+		<input> Name </input>
+		<input> Email </input>
+		<input> Phone Number </input>
+		<input> Write something... </input>
+	</contact-us>
+	
+	</pages>
+</MDuqueñoSpot>

@@ -1,0 +1,386 @@
+/* Style CSS */
+
+* {box-sizing: border-box;}
+body {
+margin: 0;
+font-family: Verdana;
+}
+.header {
+background-color: #ba8529;
+padding: 5.5px 10px;
+top: 0;
+position: fixed;
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+.header a {
+color: black;
+text-align: center;
+text-decoration: none;
+font-size: 17px;
+line-height: 25px;
+margin-right: 42.2px;
+margin-left: 50px;
+}
+.headera.logo {
+font-size: 25px;
+font-weight: bold;
+}
+.header a:hover {
+color: #f2c679;
+}
+.header a.active {
+color: #f2c679;
+}
+.header-right {
+padding-top: 10px;
+margin-right: 136.5px;
+margin-left: 20px;
+float: right;
+}
+@media screen and (max-width: 500px) {
+.header a {
+float: none;
+display: block;
+text-align: left;
+}
+.header-right {
+float: none;
+}
+}
+h1 {
+text-align: left;
+margin-top: 80px;
+margin-left: 60px;
+margin-right: 60px;
+}
+h2 {
+text-align: center;
+margin-top: 80px;
+margin-left: 60px;
+margin-right: 60px;
+}
+h4 {
+text-align: center;
+background-color: black;
+color: whitesmoke;
+font-family: Verdana;
+font-size: 25px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+h3 {
+float: center;
+margin-left: 160px;
+margin-right: 160px;
+text-align: center;
+}
+.dmessage {
+	margin-top: 100px;
+  text-align: center;
+}
+.contents {
+margin-top: 100px;
+background-color: whitesmoke;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.contents p {
+margin-left: 160px;
+margin-right: 160px;
+text-align: justify;
+}
+.contented {
+margin-top: 30px;
+background-color: whitesmoke;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.contented p {
+margin-left: 160px;
+margin-right: 160px;
+text-align: justify;
+}
+.count {
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: whitesmoke;
+}
+.count img {
+position: !important;
+float: center;
+width: 900px;
+height: 520px;
+margin-left: 220px;
+}
+.count p{
+margin-left: 100px;
+font-size: 20px;
+margin-right: 100px;
+text-align: justify;
+}
+.count a{
+}
+.counts {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.counts img {
+position: !important;
+float: left;
+width: 366px;
+height: 260px;
+margin-left: 100px;
+}
+.counts p{
+margin-top: 100px;
+margin-left: 500px;
+font-size: 20px;
+margin-right: 100px;
+text-align: justify;
+}
+.cout {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.cout img {
+margin-top: 40px;
+margin-left: 330px;
+float: center;
+width: 566px;
+height: 460px;
+}
+.cout p{
+margin-top: 50px;
+margin-left: 100px;
+font-size: 20px;
+margin-right: 100px;
+text-align: justify;
+}
+.c3 {
+ext-align: left;
+font-size: 30px;
+}
+}
+  div .contain {
+  	background-color: #FFFFCC;
+  	padding top: 20px;
+  	padding-bottom: 10px;
+  	margin-left: 160px;
+  	margin-right: 160px;
+  }
+
+.foot {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #cc983f;
+   padding-top: 5px;
+   color: black;
+   text-align: center;
+   padding-bottom: 10px;
+ }
+.foot1 {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #cc983f;
+   padding-top: 5px;
+   color: black;
+   text-align: center;
+   margin-top: 100px;
+   padding-bottom: 10px;
+ }
+ .foota {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #cc983f;
+   padding-top: 5px;
+   color: black;
+   text-align: center;
+   margin-top: 640px;
+   padding-bottom: 10px;
+ }
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #cc983f;
+   padding-top: 5px;
+   color: black;
+   text-align: center;
+   padding-bottom: 10px;
+}
+   div.content{
+	width: 550px;
+	float: left;
+	min-height: 500px;
+	margin-top: 0px;
+	margin: 10px;
+	margin-left: 130px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: -20px 20px 10px #cc983f;
+}
+div.content p{
+  color: white;
+	text-align: justify;
+	line-height: 1.5;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+div.banner{
+  float: right;
+	width: 350px;
+	height: 450px;
+	margin-right: 90px;
+}
+
+div.banner img{
+	width: 380px;
+	height: 450px;
+  float: right;
+  min-height: 500px;
+  margin-top: 0px;
+  margin: 10px;
+  margin-right: 80px;
+  border: 5px solid transparent;
+  outline: 5px solid black;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+}
+.contact-section{
+  background-size: cover;
+  padding: 40px 0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.contact-section img{
+}
+
+.contact-section h1{
+  text-align: center;
+  color: #34495e;
+}
+.contact-section p{
+  text-align: center;
+  color: #34495e;
+}
+.border{
+  width: 100px;
+  height: 10px;
+  background: transparent;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px  0;
+  border: 1px solid #34495e;
+  background: transparent;
+  padding: 20px 40px;
+  outline: black;
+  color: black;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+ border: 1px solid #34495e;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  padding: 12px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: lightgray;
+  font-family: Century Gothic;
+  background: #34495e;
+  display: inline-block;
+  outline: 1px solid #34495e;
+}
+.contact-form-btn:hover{
+  background: steelblue;
+}
+.button{
+  margin-left: 570px;
+  text-decoration: none;
+  display: inline-block;
+  background: transparent;
+  padding: 10px 40px;
+  color: black;
+  outline: 2px solid yellowgreen;
+  font-family: Century Gothic;
+  font-size: 12px;
+}
+.button:hover{
+  background: yellowgreen;
+}
+.abt h1{
+text-align: center;
+background-color: black;
+color: whitesmoke;
+font-family: Verdana;
+font-size: 40px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 55px;
+}
+
